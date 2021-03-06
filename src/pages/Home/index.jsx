@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles.scss";
 
+// Componentes
+import CreationStage from "components/CreationStage";
+
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <CreationStage />
     </>
   );
 }
